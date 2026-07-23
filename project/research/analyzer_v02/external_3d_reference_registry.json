@@ -1,0 +1,36 @@
+{
+  "format": "cpm-external-3d-reference-registry",
+  "version": "0.1",
+  "policy": {
+    "bundleModelsInProject": false,
+    "downloadOnlyThroughOfficialButton": true,
+    "requireLicenseRecord": true,
+    "requireAttribution": true,
+    "verifyUnderlyingRights": true,
+    "usage": "local calibration research only until provenance is clarified"
+  },
+  "models": [
+    {
+      "id": "sketchfab_bmw_m135i_cpm",
+      "url": "https://sketchfab.com/3d-models/bmw-m135i-car-parking-multiplayer-2c98f1346e5042b29a62a247d9ecc92c",
+      "author": "Villanueva-Jonatan-32621",
+      "licenseShown": "CC BY 4.0",
+      "triangles": 30800,
+      "vertices": 19000,
+      "downloadable": true,
+      "targetVehicle": false,
+      "possibleUses": ["UV inspection", "3D projection prototype", "panel mask prototype", "camera calibration research"],
+      "limitations": ["not Nissan 350Z", "unknown provenance from original game", "does not reveal CPM coordinate code", "do not redistribute in project"]
+    },
+    {
+      "id": "sketchfab_mazda_rx8_cpm",
+      "url": "https://sketchfab.com/3d-models/mazda-rx-8-car-parking-multiplayer-1e472c903eda45f397673df44fe7577d",
+      "author": "Villanueva-Jonatan-32621",
+      "licenseShown": "verify on model page before download",
+      "downloadable": true,
+      "targetVehicle": "candidate if user owns same in-game model",
+      "possibleUses": ["lateral panel prototype", "UV inspection"],
+      "limitations": ["license/provenance must be verified", "version/bodykit may differ"]
+    }
+  ]
+}

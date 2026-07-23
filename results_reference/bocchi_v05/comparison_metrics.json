@@ -1,0 +1,55 @@
+{
+  "base03": {
+    "ssim": 0.7536704755301559,
+    "edgeF1": 0.7704134620004508,
+    "mae": 12.508021354675293,
+    "exactPixelFraction": 0.9057384672619048,
+    "qualityScore": 0.812518713387677
+  },
+  "poolVirtual": {
+    "ssim": 0.9208611380557041,
+    "edgeF1": 0.90852956728344,
+    "mae": 1.9278273582458496,
+    "exactPixelFraction": 0.9646809895833334,
+    "qualityScore": 0.9364759814468124
+  },
+  "progressive": {
+    "430": {
+      "ssim": 0.9143925767867563,
+      "edgeF1": 0.9106433060026358,
+      "mae": 2.1475539207458496,
+      "exactPixelFraction": 0.9622860863095238,
+      "qualityScore": 0.9336817386693804,
+      "layers": 430
+    },
+    "256": {
+      "ssim": 0.8736612094802401,
+      "edgeF1": 0.894258449504402,
+      "mae": 3.3959031105041504,
+      "exactPixelFraction": 0.9551478794642857,
+      "qualityScore": 0.9095634911686339,
+      "layers": 256
+    },
+    "128": {
+      "ssim": 0.8177762175763373,
+      "edgeF1": 0.8343076420098114,
+      "mae": 5.874930381774902,
+      "exactPixelFraction": 0.9333844866071429,
+      "qualityScore": 0.8653068685377936,
+      "layers": 128
+    },
+    "64": {
+      "ssim": 0.7388606095718596,
+      "edgeF1": 0.6818778809970895,
+      "mae": 11.815452575683594,
+      "exactPixelFraction": 0.8858119419642857,
+      "qualityScore": 0.7822709171250506,
+      "layers": 64
+    }
+  },
+  "winnerSameBudget": "0.5",
+  "notes": [
+    "comparison 0.3 uses 127 layers; 0.5 uses 128",
+    "qualityScore combines SSIM, edges, MAE and exact pixels"
+  ]
+}

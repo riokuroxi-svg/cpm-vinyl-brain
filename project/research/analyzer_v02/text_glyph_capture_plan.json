@@ -1,0 +1,42 @@
+{
+  "format": "cpm-text-glyph-capture-plan",
+  "version": "0.4-draft",
+  "testString": "()[]{}<>/\\|_-+=CVOSJUMW018",
+  "repeatStrings": ["///", "\\\\\\", "|||", "(((", ")))", "VVV", "OOO"],
+  "unicodeOptional": ["•", "●", "○", "◯", "▲", "▼", "◢", "◣"],
+  "fontCandidatesFromScreenshots": [
+    "Norwester",
+    "Mantega",
+    "Eufemia",
+    "Galas",
+    "Terminator Real NFI"
+  ],
+  "initialSelection": {
+    "geometric": "Norwester",
+    "curved": "Mantega",
+    "thin": "Eufemia"
+  },
+  "stylesToCapture": [
+    {"bold": false, "italic": false},
+    {"bold": true, "italic": false},
+    {"bold": false, "italic": true}
+  ],
+  "captureRules": [
+    "usar color blanco sobre una superficie negra o muy oscura",
+    "rotación 0 grados",
+    "escala X/Y idéntica y anotada",
+    "cámara fija y perpendicular",
+    "ocultar o alejar controles que tapen el texto",
+    "una captura por fuente y estilo",
+    "anotar contador de capas antes y después de una cadena repetida"
+  ],
+  "questions": [
+    "¿la cadena completa cuenta como una sola capa?",
+    "¿se aceptan todos los símbolos ASCII?",
+    "¿se aceptan los símbolos Unicode opcionales?",
+    "¿cuál es la longitud máxima?",
+    "¿se preservan espacios al inicio y final?",
+    "¿el anclaje X/Y corresponde al centro visual o a la caja tipográfica?",
+    "¿cuál es el costo real de la capa de texto?"
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "format": "cpm-game-profile",
+  "version": "0.1-draft",
+  "game": {
+    "name": "Car Parking Multiplayer",
+    "package": "com.olzhas.carparking.multyplayer",
+    "installedVersion": null,
+    "target": "CPM1",
+    "officialInstall": true
+  },
+  "device": {
+    "manufacturer": null,
+    "model": null,
+    "androidVersion": null,
+    "resolution": null,
+    "dpi": null,
+    "orientation": "landscape"
+  },
+  "editor": {
+    "bodyLayerLimit": 450,
+    "windowLayerLimit": null,
+    "independentCounters": null,
+    "supportsHex": true,
+    "supportsText": true,
+    "supportsBold": true,
+    "supportsItalic": true,
+    "supportsUnicode": null,
+    "supportsMultiSelect": true,
+    "supportsGroupTransform": null,
+    "supportsCopy": true,
+    "supportsMirror": null,
+    "supportsReorder": null,
+    "supportsUndo": null
+  },
+  "numericInput": {
+    "angleKeyboard": null,
+    "xKeyboard": null,
+    "yKeyboard": null,
+    "supportsNegative": null,
+    "supportsDecimals": null,
+    "precision": null,
+    "ranges": {
+      "angle": null,
+      "x": null,
+      "y": null
+    }
+  },
+  "catalog": {
+    "capturedVersion": null,
+    "visibleVinylCount": null,
+    "usefulPrimitiveCount": 13,
+    "fontCount": null,
+    "unicodeTested": false,
+    "source": "public-ui-capture-only"
+  },
+  "vehicleProfile": {
+    "vehicleId": null,
+    "vehicleName": null,
+    "panel": "body_left",
+    "cameraProfile": null,
+    "homography": null,
+    "forbiddenZonesMask": null
+  },
+  "colorCalibration": {
+    "garageCondition": null,
+    "samples": [],
+    "vinylMatchesBodyAtSameHex": null
+  }
+}

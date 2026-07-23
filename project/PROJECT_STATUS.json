@@ -1,0 +1,33 @@
+{
+  "project": "CPM Vinyl Brain",
+  "date": "2026-07-22",
+  "targetGame": "Car Parking Multiplayer original",
+  "package": "com.olzhas.carparking.multyplayer",
+  "layerBudget": 280,
+  "catalogMasks": 42,
+  "implemented": [
+    "Brain 0.5 baseline",
+    "semantic analyzer 0.2A/0.2B",
+    "ADD/CUT and Optimize & Reduce",
+    "42-mask catalog",
+    "capture toolkit",
+    "differentiable renderer prototype",
+    "Bocchi eye differentiable experiment",
+    "documentation and tests"
+  ],
+  "experimental": [
+    "Brain 0.6 block architecture",
+    "PyTorch block optimizer",
+    "synthetic parenthesis glyph",
+    "external 3D references"
+  ],
+  "blockedBy": [
+    "robust parser for blue hair/opaque background",
+    "real CPM parenthesis mask/font profile",
+    "eye validation on both images",
+    "vehicle coordinate and color calibration"
+  ],
+  "readyForFinalTest": false,
+  "testImages": ["Bocchi pink hair", "blue cat character"],
+  "testsPassing": 9
+}

@@ -1,0 +1,21 @@
+name: Brain 0.5 Python CI
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  analyzer-and-solver-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - name: Dependencies
+        run: pip install -r research/analyzer_v02/requirements.txt
+      - name: Unit tests
+        working-directory: research/analyzer_v02
+        run: python -m unittest -v test_analyzer.py test_subparts.py test_solver_v02c.py test_solver_final.py test_solver_v05.py

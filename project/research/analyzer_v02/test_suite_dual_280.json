@@ -1,0 +1,32 @@
+{
+  "format": "cpm-brain-evaluation-suite",
+  "version": "0.6-draft",
+  "fixedLayerBudget": 280,
+  "globalCorrectionLimit": 25,
+  "targets": [
+    {
+      "id": "bocchi_pink_hair",
+      "file": "/home/user/uploads/Picsart_26-07-20_03-08-30-510.png",
+      "role": "known-domain",
+      "expectedChallenges": ["long hair", "detailed eyes", "maid clothes", "transparent background"]
+    },
+    {
+      "id": "blue_cat_character",
+      "file": "/home/user/uploads/Screenshot_20251204_130831_edit_418573429064023.jpg",
+      "role": "generalization",
+      "expectedChallenges": ["blue hair", "opaque light background", "cat ears", "large eyes", "foreground plush"]
+    }
+  ],
+  "blocks": ["underpainting", "hair", "skin_face", "eye_left", "eye_right", "face_details", "clothes", "accessories", "assembly_corrections"],
+  "requiredGates": [
+    "background valid",
+    "hair mask valid regardless of hue",
+    "face detected",
+    "two eyes detected",
+    "each block preview exported",
+    "total layers <= 280",
+    "global corrections <= 25",
+    "human visual comparison"
+  ],
+  "selectionRule": "No se aprueba una mejora si solo beneficia a Bocchi y empeora el objetivo azul."
+}

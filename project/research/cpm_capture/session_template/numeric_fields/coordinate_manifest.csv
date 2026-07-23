@@ -1,0 +1,10 @@
+file,editorX,editorY,editorAngle,scaleX,scaleY
+capture_x-20_y0.png,-20,0,0,5,5
+capture_x-10_y0.png,-10,0,0,5,5
+capture_x0_y0.png,0,0,0,5,5
+capture_x10_y0.png,10,0,0,5,5
+capture_x20_y0.png,20,0,0,5,5
+capture_x0_y-20.png,0,-20,0,5,5
+capture_x0_y-10.png,0,-10,0,5,5
+capture_x0_y10.png,0,10,0,5,5
+capture_x0_y20.png,0,20,0,5,5

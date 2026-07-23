@@ -1,0 +1,16 @@
+CPM VINYL BRAIN — HANDOFF COMPLETO
+
+1. Sube este ZIP al nuevo chat.
+2. Pide que lea project/HANDOFF_MASTER.md.
+3. Copia el texto de PEGAR_EN_NUEVO_CHAT.txt.
+4. No reiniciar el proyecto desde cero.
+
+ESTADO:
+- 42 figuras.
+- 9 tests aprobados.
+- Brain 0.5 funcional como baseline.
+- Brain 0.6/1.0 por bloques/diferenciable todavía experimental.
+- Dos imágenes de regresión incluidas.
+- Primera prueba diferenciable de ojo incluida.
+
+La fuente de verdad es project/PROJECT_STATUS.json.

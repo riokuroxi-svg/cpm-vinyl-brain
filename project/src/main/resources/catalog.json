@@ -1,0 +1,299 @@
+{
+  "version": 2,
+  "shapes": [
+    {
+      "id": "01_brillo_suave",
+      "name": "Brillo suave",
+      "asset": "shapes/01_brillo_suave.png",
+      "kind": "SOFT",
+      "cost": 6000
+    },
+    {
+      "id": "02_pincel_horizontal",
+      "name": "Pincel horizontal",
+      "asset": "shapes/02_pincel_horizontal.png",
+      "kind": "TEXTURE",
+      "cost": 6000
+    },
+    {
+      "id": "03_pincel_curvo",
+      "name": "Pincel curvo",
+      "asset": "shapes/03_pincel_curvo.png",
+      "kind": "TEXTURE",
+      "cost": 6000
+    },
+    {
+      "id": "04_trazo_redondeado",
+      "name": "Trazo redondeado",
+      "asset": "shapes/04_trazo_redondeado.png",
+      "kind": "SOFT",
+      "cost": 6000
+    },
+    {
+      "id": "05_arco_delgado",
+      "name": "Arco delgado",
+      "asset": "shapes/05_arco_delgado.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "06_arco_grueso",
+      "name": "Arco grueso",
+      "asset": "shapes/06_arco_grueso.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "07_triangulo",
+      "name": "Triángulo",
+      "asset": "shapes/07_triangulo.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "08_circulo",
+      "name": "Círculo",
+      "asset": "shapes/08_circulo.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "09_gota",
+      "name": "Gota",
+      "asset": "shapes/09_gota.png",
+      "kind": "SOLID",
+      "cost": 1000
+    },
+    {
+      "id": "10_bandera_ondulada",
+      "name": "Bandera ondulada",
+      "asset": "shapes/10_bandera_ondulada.png",
+      "kind": "SOLID",
+      "cost": 900
+    },
+    {
+      "id": "11_flecha",
+      "name": "Flecha",
+      "asset": "shapes/11_flecha.png",
+      "kind": "SOLID",
+      "cost": 800
+    },
+    {
+      "id": "12_pentagono",
+      "name": "Pentágono",
+      "asset": "shapes/12_pentagono.png",
+      "kind": "SOLID",
+      "cost": 600
+    },
+    {
+      "id": "13_rectangulo",
+      "name": "Rectángulo",
+      "asset": "shapes/13_rectangulo.png",
+      "kind": "SOLID",
+      "cost": 100
+    },
+    {
+      "id": "14_parallelogram",
+      "name": "Paralelogramo",
+      "asset": "shapes/14_parallelogram.png",
+      "kind": "SOLID",
+      "cost": 500
+    },
+    {
+      "id": "15_diamond",
+      "name": "Rombo",
+      "asset": "shapes/15_diamond.png",
+      "kind": "SOLID",
+      "cost": 700
+    },
+    {
+      "id": "16_directional_pentagon",
+      "name": "Pentágono direccional",
+      "asset": "shapes/16_directional_pentagon.png",
+      "kind": "SOLID",
+      "cost": 800
+    },
+    {
+      "id": "17_chevron",
+      "name": "Chevron",
+      "asset": "shapes/17_chevron.png",
+      "kind": "SOLID",
+      "cost": 1300
+    },
+    {
+      "id": "18_double_chevron",
+      "name": "Doble chevron",
+      "asset": "shapes/18_double_chevron.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "19_sunburst",
+      "name": "Sol",
+      "asset": "shapes/19_sunburst.png",
+      "kind": "SOLID",
+      "cost": 1100
+    },
+    {
+      "id": "20_ring",
+      "name": "Anillo",
+      "asset": "shapes/20_ring.png",
+      "kind": "SOLID",
+      "cost": 1200
+    },
+    {
+      "id": "21_star",
+      "name": "Estrella",
+      "asset": "shapes/21_star.png",
+      "kind": "SOLID",
+      "cost": 1700
+    },
+    {
+      "id": "22_zigzag",
+      "name": "Zigzag grueso",
+      "asset": "shapes/22_zigzag.png",
+      "kind": "SOLID",
+      "cost": 1500
+    },
+    {
+      "id": "23_zigzag_thin",
+      "name": "Zigzag fino",
+      "asset": "shapes/23_zigzag_thin.png",
+      "kind": "SOLID",
+      "cost": 1600
+    },
+    {
+      "id": "24_square_outline",
+      "name": "Cuadrado hueco",
+      "asset": "shapes/24_square_outline.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "25_circle_outline",
+      "name": "Círculo hueco",
+      "asset": "shapes/25_circle_outline.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "26_hexagon",
+      "name": "Hexágono",
+      "asset": "shapes/26_hexagon.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "27_hexagon_outline",
+      "name": "Hexágono hueco",
+      "asset": "shapes/27_hexagon_outline.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "28_arrow_outline",
+      "name": "Flecha hueca",
+      "asset": "shapes/28_arrow_outline.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "29_triangle_outline",
+      "name": "Triángulo hueco",
+      "asset": "shapes/29_triangle_outline.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "30_concave_hourglass",
+      "name": "Forma cóncava",
+      "asset": "shapes/30_concave_hourglass.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "31_slope",
+      "name": "Pendiente",
+      "asset": "shapes/31_slope.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "32_spiral",
+      "name": "Espiral",
+      "asset": "shapes/32_spiral.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "33_u_shape",
+      "name": "Forma U",
+      "asset": "shapes/33_u_shape.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "34_heart",
+      "name": "Corazón",
+      "asset": "shapes/34_heart.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "35_wave_band",
+      "name": "Banda ondulada",
+      "asset": "shapes/35_wave_band.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "36_semicircle",
+      "name": "Semicírculo",
+      "asset": "shapes/36_semicircle.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "37_crescent",
+      "name": "Creciente",
+      "asset": "shapes/37_crescent.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "38_rounded_rect",
+      "name": "Rectángulo redondeado",
+      "asset": "shapes/38_rounded_rect.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "39_capsule",
+      "name": "Cápsula",
+      "asset": "shapes/39_capsule.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "40_line",
+      "name": "Línea",
+      "asset": "shapes/40_line.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "41_cross",
+      "name": "Cruz",
+      "asset": "shapes/41_cross.png",
+      "kind": "SOLID",
+      "cost": 6000
+    },
+    {
+      "id": "42_star4",
+      "name": "Estrella de cuatro puntas",
+      "asset": "shapes/42_star4.png",
+      "kind": "SOLID",
+      "cost": 6000
+    }
+  ]
+}

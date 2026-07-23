@@ -1,0 +1,36 @@
+{
+  "format": "cpm-block-budget",
+  "version": "0.6-draft",
+  "gameLimit": 450,
+  "designBudget": 280,
+  "unusedReserve": 170,
+  "blocks": [
+    {"id": "underpainting", "budget": 20, "z": 0, "required": true},
+    {"id": "hair", "budget": 60, "z": 20, "required": true},
+    {"id": "skin_face", "budget": 25, "z": 30, "required": true},
+    {"id": "eye_left", "budget": 25, "z": 40, "required": true, "solver": "eye_template"},
+    {"id": "eye_right", "budget": 25, "z": 41, "required": true, "solver": "eye_template"},
+    {"id": "face_details", "budget": 15, "z": 42, "required": false},
+    {"id": "clothes", "budget": 55, "z": 50, "required": true},
+    {"id": "accessories", "budget": 30, "z": 60, "required": false},
+    {"id": "assembly_corrections", "budget": 25, "z": 90, "required": false, "allowedOperations": ["ADD", "CUT"]}
+  ],
+  "gates": {
+    "perception": {
+      "requireFace": true,
+      "requireTwoEyes": true,
+      "requireHair": true,
+      "requireBackground": true,
+      "onFailure": "NEEDS_MASK_CORRECTION"
+    },
+    "block": {
+      "maxVisibleOverflow": 0.08,
+      "maxConnectedHoleFraction": 0.01,
+      "requiresHumanApproval": true
+    },
+    "assembly": {
+      "maxGlobalCorrections": 25,
+      "requiresActualSizePreview": true
+    }
+  }
+}
